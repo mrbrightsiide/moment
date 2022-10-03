@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+.wrap{
+    width: 100vw; height: 100vh; overflow: hidden;position: absolute; top: 0; left: 0;   
+}
+
+input{ outline: none; background: none;
+border: none;
+font-size: 1.2rem;
+min-width: 450px;
+border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+text-align: center;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input[type]{
+    color: #fff;
+}
+
+#login-form input{
+    margin-top: 3%;
+    margin-bottom:0.5rem;
+}
+
+#login-form button{
+    display: block;
+    margin: 0 auto;
+    border:3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 200px;
+    background: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding: 0.4% 1%;
+}
+#login-form button:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+ul li{
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.7;
+}
+
+.inputs-wrap{
+    position: relative;
+    text-align: center;
+}
+
+
+.background-image {position: absolute; top:0; left:0; width: 100vw; height: 100vh; z-index: -2;
+object-fit: cover;
+}
+
+.background-cover{
+    position: absolute; top:0; left:0; width: 100vw; height: 100vh; z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2#clock{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size:8rem;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-top: 7%;
+}
+
+
+#greeting{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top:20px;
+    font-size: 3rem;
+}
+
+#todo-form{
+    margin-top: 2%;
+}
+.todo-delete-btn{
+    border:none;
+    background: none;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.todo-delete-btn:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+
+#quote{
+    text-align: center;
+    color:  rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-style: oblique;
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 0.8rem;
+}
+
+#weather{
+    position: absolute;
+    top:3%;
+    right: 2%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+
+}
